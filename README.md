@@ -16,14 +16,11 @@ Selectable by a button or jamper called "Modo"
 - _Optional_: The functionality of Key 1 and Key 2 can be implemented through a infrared remote control through two keys acting the same shape. Two other keys will do the functionality of the ISP and Mode buttons.
 
 ## Automatic scanning mode.
-The scanner will sweep (0º 360 0º) continuously until the mode is changed or the ISP (Stop) button is pressed, taking measurements with a certain resolution (eg 10 degrees) every 0.5 seconds, displaying them on the LCD and/or sending them in ASCII through the serial interface.
+The scanner will sweep (0 degress - 360 degrees - 0 degrees) continuously until the mode is changed or the ISP (Stop) button is pressed, taking measurements with a certain resolution (eg 10 degrees) every 0.5 seconds, displaying them on the LCD and/or sending them in ASCII through the serial interface.
 
 ## Obstacle detection at a configurable distance (20 to 150 cm)
 - Acoustic warning of the presence of the obstacle.
-- Variable frequency tone depending on the programmed detection threshold: 
-$$ 
-Frequency = 5000 - Threshold(cm) x 10 [Hz]
-$$
+- Variable frequency tone depending on the programmed detection threshold: $Frequency = 5000 - Threshold(cm) x 10 [Hz] $
 - _Optional_: Audio message previously recorded in memory ("_Obstacle_")
 
 ## Specifications
