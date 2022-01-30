@@ -20,7 +20,7 @@ The scanner will sweep (0 degress - 360 degrees - 0 degrees) continuously until 
 
 ## Obstacle detection at a configurable distance (20 to 150 cm)
 - Acoustic warning of the presence of the obstacle.
-- Variable frequency tone depending on the programmed detection threshold: $Frequency = 5000 - Threshold(cm) x 10 [Hz] $
+- Variable frequency tone depending on the programmed detection threshold: Frequency = 5000 - Threshold(cm) x 10 [Hz]
 - _Optional_: Audio message previously recorded in memory ("_Obstacle_")
 
 ## Specifications

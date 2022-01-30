@@ -1,18 +1,0 @@
-Dependencies for Project 'EDI', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_LPC17xx.s)(0x532C63B0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
-F (.\system_LPC17xx.c)(0x532C63B0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C648C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C6842)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C6842)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C648C)
-F (.\main.c)(0x59EF8F1C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C648C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C6842)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C6842)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C648C)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdio.h)(0x51C827C4)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\math.h)(0x51C827C4)

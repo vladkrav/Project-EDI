@@ -1,62 +1,0 @@
-Dependencies for Project 'EDI-Vladkrav', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_LPC17xx.s)(0x5A1D9762)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
-F (.\system_LPC17xx.c)(0x532C55A0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C567C)
-F (.\uart.c)(0x5A2AA817)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C567C)
-I (uart.h)(0x5A2AA816)
-F (.\font.c)(0x52297496)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\font.o --omf_browse .\font.crf --depend .\font.d)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-F (.\lcddriver.c)(0x5A33FBE6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\lcddriver.o --omf_browse .\lcddriver.crf --depend .\lcddriver.d)
-I (lcddriver.h)(0x5A217197)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (lpc17xx_gpio.h)(0x4E394238)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C567C)
-I (lpc_types.h)(0x4E00A200)
-I (lpc17xx_clkpwr.h)(0x4E394238)
-F (.\lpc17xx_clkpwr.c)(0x4E0085DE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\lpc17xx_clkpwr.o --omf_browse .\lpc17xx_clkpwr.crf --depend .\lpc17xx_clkpwr.d)
-I (lpc17xx_clkpwr.h)(0x4E394238)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C567C)
-I (lpc_types.h)(0x4E00A200)
-F (.\lpc17xx_gpio.c)(0x4E0085DE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\lpc17xx_gpio.o --omf_browse .\lpc17xx_gpio.crf --depend .\lpc17xx_gpio.d)
-I (lpc17xx_gpio.h)(0x4E394238)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C567C)
-I (lpc_types.h)(0x4E00A200)
-I (lpc17xx_libcfg_default.h)(0x4E394238)
-F (.\main.c)(0x5A520B80)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "D:\Programas y Juegos\Keil\ARM\RV31\INC"-I "D:\Programas y Juegos\Keil\ARM\CMSIS\Include"-I "D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
-I (D:\Programas y Juegos\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C567C)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
-I (lcddriver.h)(0x5A217197)
-I (uart.h)(0x5A2AA816)
-I (D:\Programas y Juegos\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
-I (I2C.c)(0x5A329706)
